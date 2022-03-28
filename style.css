@@ -1,0 +1,93 @@
+*{
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 80px;
+    top: 0;
+    width: 100%;  
+    position: fixed;
+}
+.name{
+    font-size: 1.25rem;
+    margin: 25px;
+    margin-top: 28px;
+    margin-left: 80px;
+    float: left;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(8, 1, 1);
+    text-align: center;
+    font-size: x-large;
+}
+.logo{
+    height: 63.125px;
+    width: 61.75px;
+    margin: 40px;
+    float: left;
+}
+.nav{
+    float: right;
+}
+.links{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.lstyle{
+    display: inline-block;
+    margin: 0 35px;
+    margin-top: 1px;
+    padding-top: 25px;
+    font-size: x-large;
+}
+.deco{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+    transition: ease-in 0.25s;
+    font-size: 14px;
+}
+.deco:hover{
+    color: black;
+}
+.sticky + .content {
+    padding-top: 60px;
+  }
+.container{
+    height: 700px;
+    width: 100%;
+    background-color: #148FDE;
+}
+.header1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 50px;
+}
+.container2{
+    height: 500px;
+    width: 100%;
+    background-color: #ffffff;
+}
+.dposter{
+    border-radius: 6px;
+    border-color: white;
+    height: 244px;
+    width: 434.66px;
+    margin: 120px;
+}
+.h{
+    font-family: 'Montserrat';
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    margin-top: 140px;
+}
+.underh{
+    font-family: 'Montserrat';
+    margin: 100px;
+}
